@@ -1,0 +1,45 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+td:nth-of-type(odd) {
+  background: #615f5f;
+  color: #fff;
+  text-align: center;
+  padding: 1.2%;
+}
+td:nth-of-type(even) {
+  background: #dedede;
+  color: #615f5f;
+  text-align: center;
+  padding: 1%;
+  font-size: 1.2rem;
+}
+thead th {
+  margin-bottom: 4%;
+  padding: 0.5%;
+  border: 1px solid;
+  font-size: 1.2rem;
+}
+div#quotes-random {
+  background: #eee;
+  width: 75%;
+  margin: 2% auto;
+  padding: 3%;
+  border-radius: 1.2rem;
+}
+div#quotes-random p {
+  font-size: 2.2rem;
+}
+div#quotes-random span {
+  float: right;
+  font-size: 1.1rem;
+  margin: 0.5%;
+}
+div#quotes-random p::before {
+  content: "\275D";
+  font-size: 4rem;
+  margin: 1.5%;
+  color: rgba(3, 3, 3, 0.5);
+}
